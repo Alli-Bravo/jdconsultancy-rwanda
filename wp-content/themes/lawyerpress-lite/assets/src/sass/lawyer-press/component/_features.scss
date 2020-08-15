@@ -1,0 +1,50 @@
+
+
+
+
+
+/* Service layout2 */
+
+.service-layout2.serviceBox{
+    text-align: center;
+    padding: 35px 25px;
+    padding-bottom: 25px;
+    background: #fff;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+    border: 1px solid #eee;}
+
+
+.service-layout2.serviceBox .service-icon{
+    font-size:55px;
+}
+.service-layout2.serviceBox .service-icon i{
+    transform: scale(1);
+    transition: all 0.3s ease-in-out 0s;
+}
+.service-layout2.serviceBox:hover .service-icon i{
+    transform: scale(1.15);
+}
+
+.service-layout2.serviceBox .title{
+    font-size: 26px;
+    color: #484848;
+    margin: 25px 0 10px 0;
+    margin-bottom: 0;
+    padding-bottom: 10px;
+}
+.service-layout2.serviceBox .description{
+    font-size: 16px;
+    color: #777;
+    padding: 0 20px;
+    margin: 0;
+}
+.service-layout2.serviceBox:hover{
+    background: $color__theme;
+}
+
+.service-layout2.serviceBox:hover .title,.service-layout2.serviceBox:hover p,.service-layout2.serviceBox:hover .service-icon{
+    color: #fff;
+}

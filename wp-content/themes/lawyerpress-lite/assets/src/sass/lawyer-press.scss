@@ -1,0 +1,89 @@
+/*!
+Theme Name:
+Theme URI:
+Author: Codethemes
+Author URI:
+Description:
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain:
+Tags:
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others. */
+
+/*--------------------------------------------------------------
+TABLE OF CONTENTS:
+----------------------------------------------------------------
+1. Bootstrap
+2. Base
+    ## Typography
+    ## Helpers
+3. layouts
+4. components
+5. vendors
+6. utils
+
+--------------------------------------------------------------*/
+
+@import "lawyerpress-lite/utils/variables";
+
+
+/*--------------------------------------------------------------
+1. Bootstrap
+--------------------------------------------------------------*/
+@import "vendor/bootstrap",
+        "vendor/font-awesome";
+
+
+/*--------------------------------------------------------------
+2. Base
+--------------------------------------------------------------*/
+@import "vendor/animate",
+        "lawyerpress-lite/base/helpers",
+        "lawyerpress-lite/base/fonts",
+        "lawyerpress-lite/base/typography";
+
+
+/*--------------------------------------------------------------
+
+3. layout
+--------------------------------------------------------------*/
+@import "lawyerpress-lite/layout/footer",
+        "lawyerpress-lite/layout/page-content",
+        "lawyerpress-lite/layout/navigation",
+        "lawyerpress-lite/layout/sections";
+
+
+/*--------------------------------------------------------------
+4. Components
+--------------------------------------------------------------*/
+@import "lawyerpress-lite/component/banner",
+        "lawyerpress-lite/component/top-header",
+        "lawyerpress-lite/component/header",
+        "lawyerpress-lite/component/botfooter",
+        "lawyerpress-lite/component/cta",
+        "lawyerpress-lite/component/features",
+        "lawyerpress-lite/component/team",
+        "lawyerpress-lite/component/prefooter",
+        "lawyerpress-lite/component/single-deal",
+        "lawyerpress-lite/component/pricing",
+        "lawyerpress-lite/component/blog",
+        "lawyerpress-lite/component/testimonial";
+
+
+/*--------------------------------------------------------------
+5. Vendors
+--------------------------------------------------------------*/
+@import "vendor/slick",
+        "vendor/ionicons",
+        "vendor/simplycountdown",
+        "vendor/vendor-overrides";
+
+/*--------------------------------------------------------------
+6. utils
+--------------------------------------------------------------*/
+@import "lawyerpress-lite/utils/hover-effects",
+        "lawyerpress-lite/utils/media-queries";
+

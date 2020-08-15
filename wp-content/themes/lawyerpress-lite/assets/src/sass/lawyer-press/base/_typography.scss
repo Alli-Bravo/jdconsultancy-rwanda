@@ -1,0 +1,67 @@
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
+    font-family: Poppins;
+}
+/* Global Styles */
+
+html{
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+}
+html,
+body {
+    width: 100%;
+    height: 100%;
+    color: #666;
+    line-height: 26px;
+}
+a{
+    color: $color__theme;
+    text-decoration: none;
+}
+body {
+    font-family: "Raleway","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+}
+h1,h2,h3,h4,h5,h6{
+    color: #333;
+    font-family: $title-family;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+//buttons
+button, input[type="button"], input[type="reset"], input[type="submit"]{
+    box-shadow: none;
+    text-shadow: none;
+}
+// Remove the outline from buttons and a tag
+a, button, .btn, html input[type="button"],
+input[type="reset"], input[type="submit"]{
+    &:hover, &:focus, &:active{
+        outline: 0;
+        box-shadow: none;
+    }
+}
+.btn-default {
+    background: #c0b596;
+    border: 2px solid #c0b596;
+    color: #fff;
+    border-radius: 5px;
+    font-weight: 600;
+    text-transform: capitalize;
+    font-size: 16px;
+    padding: 15px 32px;
+    outline: 0;
+    box-shadow: 0 8px 12px 0 rgba(0,0,0,0.17),0 6px 14px 0 rgba(0,0,0,0.17) !important;
+
+    &:hover, &:focus{
+    background: #303030 !important;
+    border-color: #303030;
+    color: #fff;
+    }
+}
+body {
+    overflow-x: hidden;
+}
+

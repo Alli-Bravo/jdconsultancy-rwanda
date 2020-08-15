@@ -1,0 +1,71 @@
+.our-team{
+    text-align: center;
+}
+.our-team .team-img{
+    overflow: hidden;
+    position: relative;
+}
+.our-team .team-img img{
+    width: 100%;
+    height: auto;
+}
+.our-team .social{
+    width: 100%;
+    height: 30%;
+    background: rgba(0, 0, 0,0.5);
+    position: absolute;
+    top: 50%;
+    left: 0;
+    opacity: 0;
+    transform: translateY(-50%) rotate(-30deg);
+    transition: all 0.3s ease 0s;
+}
+.our-team:hover .social{
+    height: 100%;
+    opacity: 1;
+    transform: translateY(-50%) rotate(0deg);
+}
+.our-team .social ul{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: 45%;
+    left: 0;
+}
+.our-team .social ul li{
+    display: inline-block;
+}
+.our-team .social ul li a{
+    display: block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 50%;
+    font-size: 17px;
+    color: #fff;
+    margin-left: 10px;
+    background: transparent;
+    transition: all 0.3s ease 0s;
+}
+.our-team .social ul li a:hover{
+    background: #fff;
+    color: #000;
+}
+.our-team .team-content{
+    padding: 20px 0;
+    background: #f5f7f8;
+    color: #54478a;
+}
+.our-team .title{
+    display: block;
+    font-size: 21px;
+    font-weight: 500;
+    margin: 0 0 5px 0;
+}
+.our-team .post{
+    display: block;
+    font-size: 14px;
+    color: #999;
+}

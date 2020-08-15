@@ -1,0 +1,222 @@
+.pricingTable.pricing-layout1{
+    padding: 25px 0;
+    text-align: center;
+    box-shadow: 0 0 32px rgba(0,0,0,0.14);
+}
+.pricingTable.pricing-layout1 .price-value{
+font-size: 54px;
+    font-weight: 800;
+    line-height: 43px;
+    padding: 30px 0;
+    background: #f5f5f5;
+    margin: 20px 0;
+    color: #333;
+}
+.pricingTable.pricing-layout1 .month{
+    display: inline-block;
+    font-size: 15px;
+    font-weight: normal;
+    color: #0d3b66;
+    line-height: 10px;
+    text-transform: uppercase;
+}
+.pricingTable.pricing-layout1 .title{
+    display: inline-block;
+    padding: 15px 40px;
+    margin: 0 0 20px 0;
+    background: #eee;
+    font-size: 20px;
+    color: #fe5f55;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    position: relative;
+    transition: all 0.3s ease 0s;
+}
+.pricingTable.pricing-layout1:hover .title{
+    background: #f4c724;
+    color: #fff;
+}
+.pricingTable.pricing-layout1 .title:before,
+.pricingTable.pricing-layout1 .title:after{
+    content: "";
+    border-right: 26px solid #eee;
+    border-top: 26px solid transparent;
+    border-bottom: 26px solid transparent;
+    position: absolute;
+    top: 0;
+    left: -26px;
+    transition: all 0.3s ease 0s;
+}
+.pricingTable.pricing-layout1 .title:after{
+    border-right: none;
+    border-left: 26px solid #eee;
+    left: auto;
+    right: -26px;
+}
+.pricingTable.pricing-layout1:hover .title:before{ border-right-color: #f4c724; }
+.pricingTable.pricing-layout1:hover .title:after{ border-left-color: #f4c724; }
+.pricingTable.pricing-layout1 .pricing-content{
+    padding: 0;
+    margin: 0 0 25px 0;
+    list-style: none;
+}
+.pricingTable.pricing-layout1 .pricing-content li{
+    font-size: 15px;
+    line-height: 37px;
+}
+.pricingTable.pricing-layout1 .pricingTable-signup{
+    display: inline-block;
+    padding: 7px 30px;
+    background: #eee;
+    font-size: 17px;
+    font-weight: 700;
+    color: #fe5f55;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    position: relative;
+    transition: all 0.3s ease 0s;
+}
+.pricingTable:hover .pricingTable-signup{
+    background: #f4c724;
+    color: #fff;
+}
+.pricingTable.pricing-layout1 .pricingTable-signup:before,
+.pricingTable.pricing-layout1 .pricingTable-signup:after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    transition: all 0.5s ease 0s;
+}
+.pricingTable.pricing-layout1 .pricingTable-signup:hover:before{
+    background: rgba(255, 255, 255, 0.7);
+    left: 60%;
+    right: 60%;
+    z-index: 1;
+}
+.pricingTable.pricing-layout1 .pricingTable-signup:hover:after{
+    background: rgba(255, 255, 255, 0.7);
+    top: 60%;
+    bottom: 60%;
+}
+
+
+
+
+.pricingTable.pricing-layout2{
+    border: 2px solid #e3e3e3;
+    text-align: center;
+    position: relative;
+    padding-bottom: 40px;
+    transform: translateZ(0px);
+}
+.pricingTable.pricing-layout2:before,
+.pricingTable.pricing-layout2:after{
+    content: "";
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    bottom: -2px;
+    right: -2px;
+    z-index: -1;
+    transition: all 0.5s ease 0s;
+}
+
+
+.pricingTable.pricing-layout2 .pricingTable-header{
+    background: $color__theme;
+    color: #fff;
+    margin: -2px -2px 35px;
+    padding: 40px 0;
+}
+.pricingTable.pricing-layout2 .heading{
+    font-size: 30px;
+    font-weight: 600;
+    color: #fff;
+    margin: 0 0 5px 0;
+}
+.pricingTable.pricing-layout2 .subtitle{
+    font-size: 14px;
+    display: block;
+}
+.pricingTable.pricing-layout2 .price-value{
+font-size: 72px;
+    font-weight: 600;
+    margin-top: 31px;
+    position: relative;
+    display: inline-block;
+}
+.pricingTable.pricing-layout2 .currency{
+    font-size: 45px;
+    font-weight: normal;
+    position: absolute;
+    top: 2px;
+    left: -30px;
+}
+.pricingTable.pricing-layout2 .month{
+    font-size: 20px;
+    position: absolute;
+    top: 17px;
+    right: -40px;
+}
+.pricingTable.pricing-layout2 .pricing-content{
+    list-style: none;
+    padding: 0;
+    margin-bottom: 30px;
+}
+.pricingTable.pricing-layout2 .pricing-content li{
+    font-size: 16px;
+    color: #7a7e82;
+    line-height: 40px;
+}
+.pricingTable.pricing-layout2 .read{
+    display: inline-block;
+    border: 2px solid #7a7e82;
+    border-right: none;
+    font-size: 14px;
+    font-weight: 700;
+    color: #7a7e82;
+    padding: 9px 30px;
+    position: relative;
+    text-transform: uppercase;
+    transition: all 0.3s ease 0s;
+}
+.pricingTable.pricing-layout2 .read:hover{
+    border-color: $color__theme;
+    color: $color__theme;
+}
+.pricingTable.pricing-layout2 .read i{
+    font-size: 19px;
+    margin-top: -10px;
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    transition: all 0.3s ease 0s;
+}
+.pricingTable.pricing-layout2 .read:hover i{
+    right: 5px;
+}
+.pricingTable.pricing-layout2 .read:before,
+.pricingTable.pricing-layout2 .read:after{
+    content: "";
+    display: block;
+    height: 30px;
+    border-left: 2px solid #7a7e82;
+    position: absolute;
+    right: -11px;
+    transition: all 0.3s ease 0s;
+}
+.pricingTable.pricing-layout2 .read:before{
+    bottom: -6px;
+    transform: rotate(45deg);
+}
+.pricingTable.pricing-layout2 .read:after{
+    top: -6px;
+    transform: rotate(-45deg);
+}
+.pricingTable.pricing-layout2 .read:hover:before,
+.pricingTable.pricing-layout2 .read:hover:after{
+    border-left-color: $color__theme;
+}

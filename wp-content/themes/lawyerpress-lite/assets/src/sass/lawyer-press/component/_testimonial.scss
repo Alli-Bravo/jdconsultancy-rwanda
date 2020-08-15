@@ -1,0 +1,112 @@
+.testimonial{
+    margin: 20px 15px 0;
+}
+.testimonial .pic{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    float: left;
+    border: 5px solid #fff;
+    box-shadow: 2px 3px 6px -3px rgba(0, 0, 0, 0.35);
+    position: relative;
+    margin-top: 25px;
+}
+.testimonial .pic:after{
+    content: "\f10d";
+    font-family: "FontAwesome";
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    border-radius: 50%;
+    text-align: center;
+    background: #c0b596;
+    font-size: 16px;
+    color: #fff;
+    position: absolute;
+    top: 65px;
+    left: 0;
+}
+.testimonial .pic img{
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+.testimonial .testimonial-content{
+    padding: 10px 35px;
+    padding-top: 20px;
+    background: #ebebeb;
+    border-radius: 4px;
+    position: relative;
+}
+.testimonial-content:before {
+    content: "";
+    border-top: 16px solid #ebebeb;
+    border-left: 16px solid transparent;
+    border-right: 16px solid transparent;
+    position: absolute;
+    bottom: -15px;
+    left: 27px;
+}
+.testimonial .description{
+    font-size: 14px;
+    color: #555;
+    line-height: 22px;
+}
+.testimonial .testimonial-title{
+    font-size: 23px;
+    color: $color__theme;
+    text-transform: capitalize;
+    display: inline-block;
+    padding-bottom: 0;
+}
+.testimonial .post{
+    font-size: 14px;
+    font-style: italic;
+    color: #444;
+    margin-top: 10px;
+    border: none !important;
+    margin-left: 10px;
+}
+.owl-theme .owl-buttons{
+    margin-top: 20px;
+}
+.owl-theme .owl-controls .owl-buttons div{
+    padding: 5px 10px;
+    background: #da5d5d;
+    border-radius: 0;
+    opacity: 1;
+    border-bottom: 2px solid #9f3c3c;
+}
+.owl-theme .owl-controls .owl-buttons div:hover{
+    background: #d04949;
+}
+.owl-prev:before,
+.owl-next:before{
+    content: "\f053";
+    font-family: "Font Awesome 5 Free"; font-weight: 900;
+    color: #fff;
+}
+.owl-next:before{
+    content: "\f054";
+}
+@media only screen and (max-width: 480px) {
+    .testimonial{
+        text-align: center;
+    }
+    .testimonial .pic{
+        float: none;
+        margin: 0 auto;
+    }
+    .testimonial .testimonial-content{
+        margin-left: 0;
+    }
+    .owl-theme .owl-buttons{
+        margin-top: 0;
+    }
+}
+
+.client-item img {
+    height: 120px;
+    width: auto;
+    margin: 0 auto !important;
+}
